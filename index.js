@@ -16,7 +16,7 @@ module.exports = {
           var key = header['key'];
           var value = header['value'];
           if (key && value) {
-            res.setHeader(key, value));
+            res.setHeader(key, value);
           } else {
             console.warn('Improperly formatted header in developmentHeader config. Got:');
             console.warn(header);
