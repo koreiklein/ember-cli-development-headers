@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-development-headers'
+  name: 'ember-cli-development-headers',
 
   serverMiddleware: function(config) {
     var config = this.project.config(process.env.EMBER_ENV);
